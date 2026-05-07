@@ -1,0 +1,8 @@
+models/
+.venv/
+weights/
+setting_gy.db
+setting_dlgui.py
+copy_files/
+__pycache__/
+.claude/

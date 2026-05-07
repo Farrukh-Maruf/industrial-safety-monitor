@@ -1,0 +1,40 @@
+Project Title (70 chars)
+AI-Powered Steel Yard Safety Monitoring System with LiDAR & Multi-Camera
+(74 chars — tightening below)
+
+Alt (68 chars): AI Steel Yard Safety System — YOLO, 3D LiDAR & Multi-Camera RTSP
+
+Project Description (600 chars)
+Developed a real-time industrial safety monitoring application for a steel manufacturing yard that detects workers, trucks, and crane hooks inside hazardous zones. The system fuses five RTSP camera streams with a 3D LiDAR sensor (TCP/UDP) and runs YOLO object detection via ONNX Runtime on GPU. A PySide6 desktop GUI visualizes ROI safety zones, a live top-down map of detected objects, and a Normal/Warning/Danger status with alarm popups. Features include ROI configuration with zoom/pan, cross-camera duplicate filtering, event-based video recording, SQLite-backed settings, and alarm history. (598 chars)
+
+My Role (100 chars)
+Full-stack developer — computer vision pipeline, LiDAR integration, Qt GUI, and detection logic. (97)
+
+Skills
+Python
+PySide6 / PyQt5
+Computer Vision / OpenCV
+YOLO / Ultralytics
+ONNX Runtime (GPU / CUDA)
+PyTorch
+3D LiDAR Integration
+TCP/UDP Socket Programming
+RTSP Video Streaming
+Multi-threading (QThread)
+SQLite / SQLAlchemy
+NumPy / Pandas
+Real-time Object Detection
+Industrial / Factory Automation
+Desktop GUI Development
+Deliverables
+Multi-camera RTSP ingestion pipeline with dedicated frame-grabber threads
+YOLO ONNX inference engine (person / truck / hook) with GPU acceleration
+3D LiDAR TCP command + UDP frame receiver with depth processing
+Configurable ROI safety zones with line-equation based intrusion detection
+Top-down map view showing real-time object positions across 5 cameras
+Safety state machine (Normal / Warning / Danger) with blinking alerts
+Alarm dialog system with event logging to SQLite
+Automatic event-triggered video recording module
+Settings dialog with zoom/pan ROI editor and DB persistence
+Cross-camera duplicate object filtering logic
+Packaged Windows desktop application with .pt → .onnx conversion tooling

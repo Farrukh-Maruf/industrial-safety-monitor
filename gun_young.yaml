@@ -1,0 +1,14 @@
+# 데이터셋 루트 폴더의 상대 경로
+path: ./dataset  
+
+# 학습/검증/테스트 이미지 폴더 경로 (path 기준)
+train: gun_young/train/images
+val: gun_young/val/images
+test: gun_young/test/images   # 테스트셋이 없다면 이 줄은 생략 가능
+
+
+# number of classes
+nc: 3
+
+# class names
+names: ['person', 'truck', 'hook']
